@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="Fragments.HomeFragment"
+    android:background="@color/teal_green">
+
+    <ImageView
+        android:id="@+id/back_image"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/previous"
+        android:paddingStart="20dp"
+        android:paddingTop="10dp"/>
+
+    <TextView
+        android:id="@+id/leave_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Leave Record"
+        android:textSize="26sp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:layout_marginStart="40dp"
+        android:layout_toRightOf="@+id/back_image"/>
+
+    <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/search"
+        android:layout_centerHorizontal="true"
+        android:layout_toRightOf="@+id/leave_text"
+        android:layout_marginStart="40dp"
+        android:paddingStart="20dp"
+        android:paddingTop="10dp"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="30dp"
+        android:layout_marginTop="70dp">
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

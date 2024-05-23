@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_home"
+        android:title="Home"
+        android:icon="@drawable/home_icon" />
+
+    <item
+        android:id="@+id/navigation_payroll"
+        android:title="Pay Roll"
+        android:icon="@drawable/payrol_icon"/>
+    <item
+        android:id="@+id/navigation_leave"
+        android:title="Leave Request"
+        android:icon="@drawable/leave_icon"/>
+
+    <item
+        android:id="@+id/navigation_chat"
+        android:title="chat"
+        android:icon="@drawable/chat_icon"/>
+</menu>
